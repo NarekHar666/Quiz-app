@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    display: none;
+}
+
+.game_name{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.main_info{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 ;
+    gap: 15px;
+}
+
+.question{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.answer{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: start;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid gray;
+    box-shadow: 0 1.5px 2px rgb(179, 177, 177),0 3px 2px rgb(221, 218, 218);
+    width: calc(100% + 40px);
+    position: relative;
+    left: -20px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.next{
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+
+.start{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+}
+
+.answersContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+/* result */
+
+
+.result{
+    min-width: 250px;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    display: none;
+}
+
+.response{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.responseButs_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.responseButs_div button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    letter-spacing: 1px;
+}
